@@ -1,0 +1,107 @@
+/* .dropdown-component {
+  width: 244px;
+  /* // @include largeDevice {
+  //   width: calc(244px + 2vw);
+  // } 
+}
+.dropdown-component .filter {
+  width: 147px;
+} */
+
+/* .dropdown-component .job-in-progress {
+  background: #ff9300;
+}
+
+.dropdown-component .job-in-query {
+  background: #ceb201;
+}
+
+.dropdown-component .job-complete {
+  background: #008f00;
+}
+
+.dropdown-component .job-under-review {
+  background: #5677fd;
+}
+
+.dropdown-component .job-not-started {
+  background: #ff2600;
+} */
+
+.dropdown-component .custom-dropdown-list {
+  width: 100%;
+  padding: 0px;
+  border: solid 1px #e0e0e1;
+  border-radius: 3px;
+  max-height: 168px;
+  overflow-y: scroll;
+  top: 50px !important;
+}
+
+.custom-dropdown-list::-webkit-scrollbar {
+  width: 4px;
+  /* background-color: #e42235; */
+}
+.custom-dropdown-list::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.custom-dropdown-list::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #1f457c;
+  border: 1px solid #1f457c;
+}
+.dropdown-component .custom-dropdown-list .filter {
+  max-height: 168px;
+  /* max-width: 100% !important; */
+
+  /* top: 50px !important; */
+}
+
+.dropdown-component .custom-dropdown-list .custom-dropdown-items {
+  min-height: 40px;
+  white-space: normal;
+  word-break: break-word;
+  display: flex;
+  padding: 7.5px 10px;
+
+  align-items: center;
+  border-bottom: 1px solid #e0e0e1;
+  color: #000;
+  /* font-family: Roboto; */
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+.dropdown-component .custom-dropdown-list .custom-dropdown-items :active {
+  background-color: transparent;
+}
+.dropdown-component .custom-dropdown-list .custom-dropdown-items .filter {
+  min-height: 30px;
+  font-size: 14px;
+  padding: 3px 10px;
+}
+.dropdown-component .custom-dropdown-list .dropdown-item.active {
+  background-color: transparent;
+  font-weight: 500;
+  color: #fff !important;
+  background: #595959;
+  font-weight: bold !important;
+}
+.dropdown-component .custom-dropdown-list .no-option-message {
+  height: 35px;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  border-bottom: 1px solid #e2e6f2;
+  color: #000;
+  /* font-family: Roboto; */
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 0;
+  line-height: 24px;
+  opacity: 0.8;
+}

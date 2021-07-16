@@ -1,0 +1,110 @@
+/* tabel data rows */
+.card-list-table {
+  width: 100% !important;
+}
+
+.card-list-table .rdt_Table .rdt_TableBody .rdt_TableRow {
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+  min-height: 62px;
+  align-items: center;
+  /* border-bottom: 1px solid #d2d2d4; */
+  border: 1px solid #d2d2d4;
+  color: #495057;
+}
+/* on row hover */
+.card-list-table .rdt_Table .rdt_TableBody .rdt_TableRow:hover {
+  background-color: #f5f6fa;
+  outline: none;
+}
+/* row Tabs */
+.card-list-table .rdt_Table .rdt_TableBody .rdt_TableRow .rdt_TableCell {
+  font-size: 14px;
+}
+
+.card-list-table .rdt_Table .rdt_TableBody .rdt_TableRow .rdt_TableCell.right {
+  text-align: right;
+}
+.card-list-table .rdt_Table .rdt_TableBody .rdt_TableRow .rdt_TableCell.center {
+  text-align: center;
+}
+
+/* table header outside */
+.card-list-table .rdt_Table {
+  /* font-family: Roboto; */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+  color: #495057;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+/* table header inSide */
+.card-list-table .rdt_Table .rdt_TableHead {
+  border: 1px solid #d2d2d4;
+
+  border-bottom: 2px solid #e9ecef;
+  vertical-align: bottom;
+  border-top: 1px solid #e9ecef;
+  color: #495057;
+  display: table-cell;
+  font-weight: bold;
+}
+/* table header row */
+.card-list-table .rdt_Table .rdt_TableHeadRow {
+  display: flex;
+  flex: 12;
+  align-items: center;
+  border: none;
+  min-height: 35px;
+  color: #495057;
+  background-color: #3fa0d3;
+}
+.gICSXB {
+  min-width: 50px !important;
+}
+/* table header tabs */
+.card-list-table .rdt_Table .rdt_TableHeadRow .rdt_TableCol {
+  font-weight: 700;
+  font-size: 14px;
+  white-space: pre-line;
+  color: white;
+}
+.card-list-table .rdt_Table .rdt_TableHeadRow .rdt_TableCol.right {
+  text-align: right;
+}
+.card-list-table .rdt_Table .rdt_TableHeadRow .rdt_TableCol.center {
+  text-align: center;
+}
+
+.card-list-table .no-data-component {
+  margin-top: 30px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  color: #495057;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 16px;
+  text-transform: uppercase;
+  overflow-wrap: anywhere;
+}
+
+.custome-row-style {
+  font-weight: 700 !important;
+}
+.rdt_Table div {
+  white-space: inherit !important;
+  /* white-space: nowrap !important; */
+  margin-right: 6px;
+}
+
